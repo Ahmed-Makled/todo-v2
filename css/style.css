@@ -1,0 +1,44 @@
+/**
+** #5d93e1 #f9d288 #b964f7 #f3f0fd #fdf1f1 #f48687 #ecf3fc
+**/
+/**
+*Main
+**/
+:root {
+  --important-color: #c73d46;
+  --complated-color: #5dc250;
+  --progress-color: #5d93e1;
+}
+/**
+* Header
+**/
+header {
+  height: 200px;
+  background-color: #e9eef6;
+}
+/**
+* Card
+*/
+
+.card {
+  min-height: 250px;
+}
+/**
+* Stauts of card
+*/
+.important::before {
+  content: "";
+  background-color: var(--important-color);
+  height: 5px;
+}
+.complated::before {
+  content: "";
+  background-color: var(--complated-color);
+  height: 5px;
+}
+.valid,
+.valid-2 {
+  font-size: 0.875em;
+  color: #ff7480;
+  font-weight: 600;
+}
